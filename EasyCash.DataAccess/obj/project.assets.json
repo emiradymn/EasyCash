@@ -1965,6 +1965,24 @@
             "rid": "win"
           }
         }
+      },
+      "EasyCash.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EasyCash.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EasyCash.Entity.dll": {}
+        }
       }
     }
   },
@@ -4955,10 +4973,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "EasyCash.Entity/1.0.0": {
+      "type": "project",
+      "path": "../EasyCash.Entity/EasyCash.Entity.csproj",
+      "msbuildProject": "../EasyCash.Entity/EasyCash.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EasyCash.Entity >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
@@ -4993,7 +5017,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\emira\\OneDrive\\Masaüstü\\Banka\\EasyCash\\EasyCash.Entity\\EasyCash.Entity.csproj": {
+              "projectPath": "C:\\Users\\emira\\OneDrive\\Masaüstü\\Banka\\EasyCash\\EasyCash.Entity\\EasyCash.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
