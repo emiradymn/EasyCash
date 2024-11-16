@@ -9,9 +9,18 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EasyCash.DataAccess\EasyCash.DataAccess.csproj" />
     <ProjectReference Include="..\EasyCash.Entity\EasyCash.Entity.csproj" />
+    <ProjectReference Include="..\EasyCash.Dto\EasyCash.Dto.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ValidationRules\AppRoleValidationRules\" />
+    <Folder Include="ValidationRules\CustomerAccountProcessValidationRules\" />
+    <Folder Include="ValidationRules\CustomerAccountValidationRules\" />
   </ItemGroup>
 </Project>

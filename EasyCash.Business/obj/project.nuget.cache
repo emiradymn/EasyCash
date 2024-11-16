@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "yIda7rbarjnycv1TyfeAcgTJqhfVYzpRdYTAc/nlB/07Twc9+wJkx0v6+Ohj5snnNW7VmEl3GFni1OWQW/I+6g==",
+  "dgSpecHash": "7naj07glVO9Ua3J3IjOVQ+7c6Ruwa1PsoSUtCC0LlFRmN/JcVHCLBxNKW1AvipTpfTR8y04En8G+W76IMaFvLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\emira\\OneDrive\\Masaüstü\\Banka\\EasyCash\\EasyCash.Business\\EasyCash.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emira\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\emira\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\emira\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\emira\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\emira\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "C:\\Users\\emira\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\emira\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\emira\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
