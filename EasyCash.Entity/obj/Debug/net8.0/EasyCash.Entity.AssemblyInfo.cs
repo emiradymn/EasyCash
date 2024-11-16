@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EasyCash.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3186aa0bf99ad139530e2c7e25a8ffc907ed7ab9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dbd547e18711794f93e0bd1c4d80b6b81747cd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyCash.Entity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyCash.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
