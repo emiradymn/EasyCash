@@ -27,16 +27,26 @@ public class RegisterController : Controller
         {
             AppUser appUser = new AppUser()
             {
-                UserName = appUserRegisterDto.UserName,
-                Email = appUserRegisterDto.EMail,
+                UserName = appUserRegisterDto.Username,
+                Email = appUserRegisterDto.Email,
                 Name = appUserRegisterDto.Name,
-                Surname = appUserRegisterDto.Surname
+                Surname = appUserRegisterDto.Surname,
+                District = "aaa",
+                City = "bbb",
+                ImageUrl = "ccc"
             };
             var result = await _userManager.CreateAsync(appUser, appUserRegisterDto.Password);
 
             if (result.Succeeded)
             {
                 return RedirectToAction("Index", "ConfirmMail");
+            }
+            else
+            {
+                foreach (var item in result.Errors)
+                {
+                    ModelState.AddModelError("", item.Description);
+                }
             }
         }
         return View();
