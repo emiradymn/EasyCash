@@ -1,0 +1,15 @@
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\bin\Debug\net8.0\EasyCash.Dto.deps.json
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\bin\Debug\net8.0\EasyCash.Dto.runtimeconfig.json
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\bin\Debug\net8.0\EasyCash.Dto.dll
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\bin\Debug\net8.0\EasyCash.Dto.pdb
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\EasyCash.Dto.csproj.AssemblyReference.cache
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\EasyCash.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\EasyCash.Dto.AssemblyInfoInputs.cache
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\EasyCash.Dto.AssemblyInfo.cs
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\EasyCash.Dto.csproj.CoreCompileInputs.cache
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\EasyCash.Dto.sourcelink.json
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\EasyCash.Dto.dll
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\refint\EasyCash.Dto.dll
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\EasyCash.Dto.pdb
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\EasyCash.Dto.genruntimeconfig.cache
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Dto\obj\Debug\net8.0\ref\EasyCash.Dto.dll
