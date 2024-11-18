@@ -1,0 +1,20 @@
+@{
+ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+
+<div class="container">
+    <br>
+    <br>
+    <form method="post">
+        <h2>@ViewBag.v adlı maili onaylama</h2>
+        <label>Kullanıcı ID değeri</label>
+        <input type="text" class="form-control">
+        <br>
+        <label>Mail Adresine Gelen 6 Haneli Kodu Giriniz</label>
+        <input type="text" class="form-control">
+        <br>
+        <button class="btn btn-outline-success">Gönder</button>
+    </form>
+</div>

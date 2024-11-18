@@ -61,24 +61,17 @@ public class RegisterController : Controller
                 mimeMessage.Body = bodyBuilder.ToMessageBody();
                 mimeMessage.Subject = "EasyCash Onay Kodu";
 
-                // SMTP istemcisi oluştur
+
                 using (var client = new MailKit.Net.Smtp.SmtpClient())
                 {
-                    // Sertifika doğrulamasını geçici olarak devre dışı bırak
                     client.ServerCertificateValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true;
-
-                    // Gmail SMTP sunucusuna bağlan
                     client.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
-
-                    // Gmail kimlik doğrulama
                     client.Authenticate("emiradymn4444@gmail.com", "suxmtpcrovztpnxj");
-
-                    // Mail gönder
                     client.Send(mimeMessage);
-
-                    // Bağlantıyı kapat
                     client.Disconnect(true);
                 }
+
+                TempData["Mail"] = appUserRegisterDto.Email;
 
                 return RedirectToAction("Index", "ConfirmMail");
             }
