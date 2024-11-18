@@ -148,3 +148,7 @@ C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Presentation\obj\Debu
 C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Presentation\obj\Debug\net8.0\EasyCash.Presentation.pdb
 C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Presentation\obj\Debug\net8.0\EasyCash.Presentation.genruntimeconfig.cache
 C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Presentation\obj\Debug\net8.0\ref\EasyCash.Presentation.dll
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Presentation\bin\Debug\net8.0\MailKit.dll
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Presentation\bin\Debug\net8.0\MimeKit.dll
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Presentation\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Presentation\bin\Debug\net8.0\BouncyCastle.Crypto.dll
