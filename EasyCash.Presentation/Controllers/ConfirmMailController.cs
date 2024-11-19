@@ -1,12 +1,21 @@
 using System;
+using EasyCash.Entity.Concrete;
 using EasyCash.Presentation.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EasyCash.Presentation.Controllers;
 
 public class ConfirmMailController : Controller
 {
-    public IActionResult Index(int id)
+    private readonly UserManager<AppUser> _userManager;
+
+    public ConfirmMailController(UserManager<AppUser> userManager)
+    {
+        _userManager = userManager;
+    }
+
+    public IActionResult Index()
     {
         var value = TempData["Mail"];
         ViewBag.v = value;
@@ -14,8 +23,15 @@ public class ConfirmMailController : Controller
     }
 
     [HttpPost]
-    public IActionResult Index(ConfirmMailViewModel confirmMailViewModel)
+    public async Task<IActionResult> Index(ConfirmMailViewModel confirmMailViewModel)
     {
+
+        var user = await _userManager.FindByEmailAsync(confirmMailViewModel.Mail);
+
+        if (user.ConfirmCode == confirmMailViewModel.ConfirmCode)
+        {
+            return RedirectToAction("Index", "MyProfile");
+        }
         return View();
     }
 }

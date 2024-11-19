@@ -66,7 +66,7 @@ public class RegisterController : Controller
                 {
                     client.ServerCertificateValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true;
                     client.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
-                    client.Authenticate("emiradymn4444@gmail.com", "suxmtpcrovztpnxj");
+                    client.Authenticate("emiradymn4444@gmail.com", "ngniggzwoasruvep");
                     client.Send(mimeMessage);
                     client.Disconnect(true);
                 }
