@@ -1,3 +1,4 @@
+@model ConfirmMailViewModel
 @{
 ViewData["Title"] = "Index";
 }
@@ -10,11 +11,11 @@ ViewData["Title"] = "Index";
     <form method="post">
         <h2>@ViewBag.v adlı maili onaylama</h2>
         <label>Kullanıcı ID değeri</label>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" asp-for="Mail" value="@ViewBag.v">
         <br>
         <label>Mail Adresine Gelen 6 Haneli Kodu Giriniz</label>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" asp-for="ConfirmCode">
         <br>
         <button class="btn btn-outline-success">Gönder</button>
     </form>
-</div>
+</div>j
