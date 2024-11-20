@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlybU1haWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/emira/OneDrive/Masaüstü/Banka/EasyCash/EasyCash.Presentation/Views/CustomerLayout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJMYXlvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emira/OneDrive/Masaüstü/Banka/EasyCash/EasyCash.Presentation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,8 +38,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emira/OneDrive/Masaüstü/Banka/EasyCash/EasyCash.Presentation/Views/MyProfile/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQcm9maWxlXEluZGV4LmNzaHRtbA==
+[C:/Users/emira/OneDrive/Masaüstü/Banka/EasyCash/EasyCash.Presentation/Views/MyAccounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlBY2NvdW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emira/OneDrive/Masaüstü/Banka/EasyCash/EasyCash.Presentation/Views/Register/Index.cshtml]
