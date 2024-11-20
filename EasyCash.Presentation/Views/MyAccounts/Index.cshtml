@@ -86,7 +86,7 @@ Layout= "~/Views/CustomerLayout/Index.cshtml";
                                         class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input type="number" id="number" asp-for="City" required="required"
+                                    <input type="text" id="number" asp-for="City" required="required"
                                         data-validate-minmax="10,100" class="form-control col-md-7 col-xs-12">
                                 </div>
                             </div>
@@ -95,8 +95,8 @@ Layout= "~/Views/CustomerLayout/Index.cshtml";
                                     <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input type="url" id="website" asp-for="PhoneNumber" required="required"
-                                        placeholder="www.website.com" class="form-control col-md-7 col-xs-12">
+                                    <input type="text" id="website" asp-for="PhoneNumber" required="required"
+                                        class="form-control col-md-7 col-xs-12">
                                 </div>
                             </div>
                             <div class="item form-group">
@@ -118,8 +118,9 @@ Layout= "~/Views/CustomerLayout/Index.cshtml";
                             <div class="item form-group">
                                 <label for="password" class="control-label col-md-3">Şifre tekrar</label>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input id="password" type="password" asp-for="Password" data-validate-length="6,8"
-                                        class="form-control col-md-7 col-xs-12" required="required">
+                                    <input id="password" type="password" asp-for="ConfirmPassword"
+                                        data-validate-length="6,8" class="form-control col-md-7 col-xs-12"
+                                        required="required">
                                 </div>
                             </div>
                             <div class="ln_solid"></div>
