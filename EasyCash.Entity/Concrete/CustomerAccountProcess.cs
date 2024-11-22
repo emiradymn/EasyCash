@@ -10,6 +10,7 @@ public class CustomerAccountProcess
     public DateTime ProcessDate { get; set; }
     public int? SenderID { get; set; }
     public int? ReceiverID { get; set; }
+    public string Description { get; set; }
     public CustomerAccount SenderCustomer { get; set; }
     public CustomerAccount ReceiverCustomer { get; set; }
 
