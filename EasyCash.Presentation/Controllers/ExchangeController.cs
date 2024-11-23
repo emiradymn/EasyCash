@@ -26,15 +26,13 @@ public class ExchangeController : Controller
             response.EnsureSuccessStatusCode();
             var body = await response.Content.ReadAsStringAsync();
 
-            // JSON ayrıştırma işlemi
             var jsonDocument = JsonDocument.Parse(body);
             var usdToTryRate = jsonDocument.RootElement
                 .GetProperty("result")
                 .GetProperty("TRY")
                 .GetDecimal();
 
-            // Ondalık kısmı 2 basamak olacak şekilde düzenle
-            ViewBag.UsdToTry = usdToTryRate.ToString("F2");
+            ViewBag.UsdToTry = usdToTryRate.ToString("F4");
         }
         #endregion
 
@@ -63,7 +61,7 @@ public class ExchangeController : Controller
                 .GetDecimal();
 
             // Ondalık kısmı 2 basamak olacak şekilde düzenle
-            ViewBag.EurToTry = usdToTryRate.ToString("F2");
+            ViewBag.EurToTry = usdToTryRate.ToString("F4");
         }
         #endregion
 
@@ -84,15 +82,15 @@ public class ExchangeController : Controller
             response3.EnsureSuccessStatusCode();
             var body3 = await response3.Content.ReadAsStringAsync();
 
-            // JSON ayrıştırma işlemi
+
             var jsonDocument = JsonDocument.Parse(body3);
             var usdToTryRate = jsonDocument.RootElement
                 .GetProperty("result")
                 .GetProperty("TRY")
                 .GetDecimal();
 
-            // Ondalık kısmı 2 basamak olacak şekilde düzenle
-            ViewBag.GbpToTry = usdToTryRate.ToString("F2");
+
+            ViewBag.GbpToTry = usdToTryRate.ToString("F4");
         }
         #endregion
         return View();
