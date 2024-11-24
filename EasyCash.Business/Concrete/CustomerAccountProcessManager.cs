@@ -33,6 +33,11 @@ public class CustomerAccountProcessManager : ICustomerAccountProcessService
         _customerAccountProcessDal.Insert(t);
     }
 
+    public List<CustomerAccountProcess> TMyLastProcess(int id)
+    {
+        return _customerAccountProcessDal.MyLastProcess(id);
+    }
+
     public void TUpdate(CustomerAccountProcess t)
     {
         _customerAccountProcessDal.Update(t);
