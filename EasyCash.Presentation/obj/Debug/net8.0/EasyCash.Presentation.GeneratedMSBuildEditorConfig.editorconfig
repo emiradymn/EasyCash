@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\emira\OneDrive\Masaüstü\Banka\EasyCash\EasyCash.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/emira/OneDrive/Masaüstü/Banka/EasyCash/EasyCash.Presentation/Views/AccountListForCopy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudExpc3RGb3JDb3B5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emira/OneDrive/Masaüstü/Banka/EasyCash/EasyCash.Presentation/Views/ConfirmMail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlybU1haWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
