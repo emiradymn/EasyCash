@@ -36,9 +36,12 @@ Müşteri Paneli:<br>
 🔌 Fatura Ödeme: Elektrik faturalarını vb. ödeme işlemleri.<br>
 
 Projenin Görselleri<br>
-![Ekran görüntüsü 2024-11-26 150213](https://github.com/user-attachments/assets/f628888c-a1cb-4dcd-a279-5a7801e601b6)<br>
-![image](https://github.com/user-attachments/assets/9c4b263a-519e-4eb2-9ce3-3486a528f2b7)<br>
-![Ekran görüntüsü 2024-11-26 154830](https://github.com/user-attachments/assets/4ebb1383-d290-47ed-b83b-2278adc7cb73)<br>
+![Ekran görüntüsü 2024-11-26 150213](https://github.com/user-attachments/assets/0a98f0b4-ad98-4bf0-8f8d-b21bb71b5abf)<br>
+![Ekran görüntüsü 2024-11-26 154442](https://github.com/user-attachments/assets/d33fe4f5-b537-4d89-bcb4-d24a0d8c4c5f)<br>
+![Ekran görüntüsü 2024-11-26 154830](https://github.com/user-attachments/assets/206767c0-9086-4a0c-aab1-964d1704e25d)<br>
+
+
+
 
 
 
