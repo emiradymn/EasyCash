@@ -34,3 +34,13 @@ Müşteri Paneli:<br>
 💳 Kredi/Banka Kartı Başvurusu: Kolay başvuru işlemleri.<br>
 💸 Para Transferi: Sistemde kayıtlı bir IBAN'a para transferi yapabilme.<br>
 🔌 Fatura Ödeme: Elektrik faturalarını vb. ödeme işlemleri.<br>
+
+Projenin Görselleri<br>
+![Ekran görüntüsü 2024-11-26 150213](https://github.com/user-attachments/assets/f628888c-a1cb-4dcd-a279-5a7801e601b6)<br>
+![image](https://github.com/user-attachments/assets/9c4b263a-519e-4eb2-9ce3-3486a528f2b7)<br>
+![Ekran görüntüsü 2024-11-26 154830](https://github.com/user-attachments/assets/4ebb1383-d290-47ed-b83b-2278adc7cb73)<br>
+
+
+
+
+
