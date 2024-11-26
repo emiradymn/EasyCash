@@ -1,4 +1,5 @@
-💳 EasyCash Banka Web Projesi<br>
+💳 EasyCash Banka Web Projesi
+  <br>
 <br>
 EasyCash, gerçek dünya senaryolarına uygun bir şekilde geliştirilmiş, banka web sitesi mantığında işleyen bir web projesidir. Bu proje, kullanıcı dostu bir arayüz ve güçlü arka uç özellikleri ile Admin, Müşteri, ve Ana Sayfa panellerini kapsamaktadır.<br>
 
@@ -35,9 +36,12 @@ Müşteri Paneli:<br>
 💸 Para Transferi: Sistemde kayıtlı bir IBAN'a para transferi yapabilme.<br>
 🔌 Fatura Ödeme: Elektrik faturalarını vb. ödeme işlemleri.<br>
 
-Projenin Görselleri<br>
+<h1>Projenin Görselleri<h1/>
+  
 ![Ekran görüntüsü 2024-11-26 150213](https://github.com/user-attachments/assets/0a98f0b4-ad98-4bf0-8f8d-b21bb71b5abf)<br>
+
 ![Ekran görüntüsü 2024-11-26 154442](https://github.com/user-attachments/assets/d33fe4f5-b537-4d89-bcb4-d24a0d8c4c5f)<br>
+
 ![Ekran görüntüsü 2024-11-26 154830](https://github.com/user-attachments/assets/206767c0-9086-4a0c-aab1-964d1704e25d)<br>
 
 
